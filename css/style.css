@@ -1,0 +1,315 @@
+body {
+  background: #7d99b2;
+  margin: 0px;
+  font-family: "century Gothic, sans serif" Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background: #135480;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+
+nav {
+  display: none;
+  position: fixed;
+  top: 64px;
+  right: 0px;
+  z-index: 1000;
+  background: #135480;
+  padding: 0px 29px 0px 1px;
+  line-height: 2;
+}
+nav li {
+  display: block;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+}
+li a:hover {
+  background: white;
+  color: #135480;
+  padding: 5px;
+}
+.active {
+  background: white;
+  color: #135480;
+  padding: 5px;
+}
+.logo img {
+  height: 60px;
+}
+#humburger-menu {
+  display: none;
+}
+#humburger-menu:checked ~ nav {
+  display: block;
+}
+.page-overview-cta {
+  background: #f98c00;
+  display: block;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+.page-overview-cta:hover {
+  background: #e48b17;
+}
+
+.welcome-page {
+  background-image: url("/images/Home/william-bout-264826.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-position-x: center;
+  background-position-y: center;
+  margin-top: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.welcome--page h1 {
+  background: #135480;
+  color: white;
+  margin-top: 91px;
+  opacity: 0.85;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.4;
+  padding: 68px 34px;
+}
+.page--overview,
+.home-explore---text,
+.home-bottom--image {
+  padding-top: 20px;
+}
+.page-overview,
+.home-bottom-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.home-explore-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home-explore--text {
+  background: #135480;
+  width: 1155px;
+  height: 390px;
+  color: white;
+  font-size: 19px;
+  padding: 4px 20px 0px 20px;
+}
+.home-explore---text h1 {
+  text-align: center;
+  color: white;
+}
+footer {
+  padding-top: 30px;
+}
+.footer {
+  background: #135480;
+  display: flex;
+  padding: 0px 40px;
+  justify-content: space-between;
+  color: white;
+  font-size: 18px;
+}
+.footer-icons {
+  display: flex;
+  gap: 20px;
+}
+.footer-icons a {
+  color: white;
+}
+
+.welcome-page-explore,
+.welcome-page-exhibitions {
+  background-image: url("/images/Home/william-bout-264826.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  background-position-x: center;
+  background-position-y: center;
+  margin-top: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.welcome--page-explore h1,
+.welcome--page-exhibitions h1 {
+  background: #135480;
+  color: white;
+  margin-top: 91px;
+  opacity: 0.85;
+  border-radius: 50%;
+  text-align: center;
+}
+
+/* Explore page*/
+.welcome--page-explore h1 {
+  padding: 60px 34px;
+}
+.for-kids h2,
+.for-teachers h2,
+.research h2 {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+.for-kids {
+  background: #6e2541;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.for--kids,
+.for--teachers,
+.research1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.for---kids img {
+  width: 300px;
+}
+.for---kids {
+  width: 300px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 18px;
+}
+.for-teachers {
+  background: #007504;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+.for---teachers,
+.research-1 {
+  width: 450px;
+  color: white;
+  font-size: 18px;
+  margin: 0px 10px;
+  padding-bottom: 10px;
+}
+.research--1 {
+  width: 300px;
+}
+.research {
+  background: #faad28;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+/* exhibitions*/
+
+.welcome--page-exhibitions h1 {
+  padding: 64px 18px;
+}
+
+.cosmology h2,
+.evolution h2,
+.biology-and-medicine h2,
+.robotics-and-ai h2,
+.ecology h2 {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+.cosmology {
+  background: #367fbf;
+}
+.cosmology,
+.evolution,
+.biology-and-medicine,
+.robotics-and-ai,
+.ecology {
+  max-width: 900px;
+  margin: 0px auto;
+}
+.cosmology1,
+.evolution1,
+.biology-and-medicine1,
+.robotics-and-ai1,
+.ecology1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.cosmology-1,
+.evolution-1,
+.biology-and--medicine,
+.robotics-and--ai,
+.ecology-1 {
+  width: 300px;
+  padding-top: 10px;
+  color: white;
+}
+.cosmology--1,
+.evolution--1,
+.biology-and---medicine,
+.robotics-and---ai,
+.ecology--1 {
+  width: 370px;
+  font-size: 18px;
+  margin: -16px 10px 10px 10px;
+}
+.evolution {
+  background: #f98c00;
+}
+.biology-and-medicine {
+  background: #00665a;
+}
+.robotics-and-ai {
+  background: #6e2541;
+}
+.ecology {
+  background: #0c4329;
+}
+
+/* media queries*/
+@media only screen and (min-width: 420px) {
+  .home-explore--text {
+    height: 288px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  nav {
+    display: block;
+    position: static;
+  }
+  nav li {
+    display: inline-block;
+    position: relative;
+    margin: 0px 6px;
+  }
+  header {
+    justify-content: start;
+  }
+  header label {
+    display: none;
+  }
+  .home-explore--text {
+    height: 154px;
+  }
+}
