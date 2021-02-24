@@ -1,0 +1,53 @@
+/* events*/
+.welcome--page-events h1 {
+  padding: 54px 34px;
+}
+
+.our-events h2,
+.recent-events h2 {
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
+.our-events,
+.recent-events,
+.recent-events-1,
+.recent-events-2 {
+  margin: 0px auto;
+}
+.our--events,
+.recent--events,
+.recent-events--1,
+.recent-events--2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+.our---events {
+  width: 300px;
+  background: white;
+  padding: 10px;
+}
+.recent---events img,
+.recent--events--1 img,
+.recent--events--2 img {
+  width: 320px;
+}
+.recent---events,
+.recent--events--1,
+.recent--events--2 {
+  width: 320px;
+  margin: 10px 0px;
+}
+.recent----events,
+.recent--events---1,
+.recent--events---2 {
+  width: 645px;
+  margin: 10px 0px 15px 0px;
+  font-size: 16px;
+  line-height: 1.9;
+  background: white;
+  padding: 10px;
+}
+

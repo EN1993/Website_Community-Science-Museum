@@ -1,0 +1,51 @@
+/* media queries*/
+@media only screen and (min-width: 420px) {
+}
+
+@media only screen and (min-width: 700px) {
+  .about-visit-1 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .contact--form {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  nav {
+    display: block;
+    position: static;
+  }
+  nav li {
+    display: inline-block;
+    position: relative;
+    margin: 0px 6px;
+  }
+  header {
+    justify-content: start;
+  }
+  header label {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .about-visit-1 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .visit {
+    max-width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .visit-admission {
+    width: 627px;
+  }
+  .visit-adress,
+  .visit-hours {
+    width: 290px;
+  }
+}

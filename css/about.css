@@ -1,0 +1,110 @@
+/*About page*/
+.welcome--page-about h1 {
+  padding: 54px 22px;
+}
+.about-visit {
+  margin: 0px auto;
+  max-width: 1200px;
+}
+.about-visit h2 {
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+}
+.about-visit-1 {
+  display: grid;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0px auto;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.visit-adress {
+  text-align: center;
+}
+.visit-adress,
+.visit-hours,
+.visit-admission {
+  background: white;
+}
+
+.about,
+.visit-adress,
+.visit-hours,
+.visit-admission {
+  padding: 10px;
+  margin: 10px auto;
+}
+.about img {
+  width: 100%;
+}
+.about {
+  width: 300px;
+  color: white;
+}
+.visit-adress,
+.visit-hours {
+  width: 300px;
+}
+.visit-admission {
+  width: 300px;
+  text-align: center;
+}
+.visit-admission p {
+  text-align: left;
+}
+.visit-hours {
+  text-align: center;
+}
+.visit-hours p {
+  text-align: left;
+}
+.about-library,
+.about-exhibition {
+  margin: 0px auto;
+  max-width: 1400px;
+  padding: 10px;
+}
+.about-library img,
+.about-exhibition img {
+  width: 100%;
+}
+.accessbility-food-shop-0 {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+.accessbility-food-shop,
+.get-involved-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.get-involved h1 {
+  text-align: center;
+  color: white;
+}
+.support,
+.volunteer,
+.internships,
+.accessbility,
+.food,
+.shop {
+  width: 300px;
+  height: 300px;
+  background: white;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.7;
+  padding: 10px;
+}
+.support p,
+.volunteer p,
+.internships p,
+.accessbility p,
+.food p,
+.shop p {
+  text-align: left;
+}

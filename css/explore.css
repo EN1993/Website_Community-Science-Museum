@@ -1,0 +1,56 @@
+/* Explore page*/
+.welcome--page-explore h1 {
+  padding: 60px 34px;
+}
+
+.explore {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.explore h2 {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+.for-kids {
+  background: #6e2541;
+}
+
+.for--kids,
+.for--teachers,
+.research1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.for---kids img {
+  width: 300px;
+}
+.for---kids {
+  width: 300px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 18px;
+  margin: auto 0px;
+}
+.for-teachers {
+  background: #007504;
+}
+.for---teachers,
+.research-1 {
+  width: 450px;
+  color: white;
+  font-size: 18px;
+  margin: 0px 10px;
+  padding-bottom: 10px;
+  margin: auto 0px;
+  padding: 10px;
+}
+.research--1 {
+  width: 300px;
+}
+.research {
+  background: #faad28;
+}

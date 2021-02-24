@@ -1,0 +1,52 @@
+/* exhibitions*/
+
+.welcome--page-exhibitions h1 {
+  padding: 64px 18px;
+}
+
+.exhibition h2 {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+.cosmology {
+  background: #135480;
+}
+
+.exhibition {
+  max-width: 900px;
+  margin: 0px auto;
+}
+
+.exhibition-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.exhibition-2 {
+  width: 300px;
+  padding-top: 10px;
+  color: white;
+}
+
+.exhibition-3 {
+  width: 370px;
+  font-size: 17px;
+  margin: -16px 10px 10px 10px;
+  line-height: 1.6;
+  color: white;
+}
+.evolution {
+  background: #f98c00;
+}
+.biology-and-medicine {
+  background: #00665a;
+}
+.robotics-and-ai {
+  background: #6e2541;
+}
+.ecology {
+  background: #0c4329;
+}
