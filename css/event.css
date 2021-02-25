@@ -9,16 +9,12 @@
   color: white;
   text-decoration: underline;
 }
-.our-events,
-.recent-events,
-.recent-events-1,
-.recent-events-2 {
+
+.events {
   margin: 0px auto;
 }
-.our--events,
-.recent--events,
-.recent-events--1,
-.recent-events--2 {
+
+.events-1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -29,20 +25,17 @@
   background: white;
   padding: 10px;
 }
-.recent---events img,
-.recent--events--1 img,
-.recent--events--2 img {
+
+.events-2 img {
   width: 320px;
 }
-.recent---events,
-.recent--events--1,
-.recent--events--2 {
+
+.events-2 {
   width: 320px;
   margin: 10px 0px;
 }
-.recent----events,
-.recent--events---1,
-.recent--events---2 {
+
+.events-3 {
   width: 645px;
   margin: 10px 0px 15px 0px;
   font-size: 16px;
@@ -50,4 +43,3 @@
   background: white;
   padding: 10px;
 }
-

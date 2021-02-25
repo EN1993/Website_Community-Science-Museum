@@ -1,0 +1,57 @@
+/* home */
+.welcome-page {
+  background-image: url("/images/Home/william-bout-264826.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-position-x: center;
+  background-position-y: center;
+  margin-top: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.welcome--page h1 {
+  background: #135480;
+  color: white;
+  margin-top: 91px;
+  opacity: 0.85;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.4;
+  padding: 69px 18px;
+}
+.page--overview,
+.home-explore---text,
+.home-bottom--image {
+  padding-top: 20px;
+}
+.page-overview,
+.home-bottom-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+.home-explore---text {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+.home-explore-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home-explore--text {
+  background: #135480;
+  color: white;
+  font-size: 19px;
+  padding: 4px 20px 0px 20px;
+}
+.home-explore---text h1 {
+  text-align: center;
+  color: white;
+}
