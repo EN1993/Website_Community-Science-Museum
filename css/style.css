@@ -1,15 +1,19 @@
 @import "imports/links.css";
-
 body {
   background: #7d99b2;
   margin: 0px;
+  font-family: "Cormorant", serif, Verdana, Geneva, Tahoma, sans-serif;
+  /*
   font-family: "Reenie Beanie", cursive, Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Advent Pro", sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+  */
 }
 
 a,
 h1,
 h3,
 h2,
+h4,
 .footer {
   font-family: century Gothic, Medium sans-serif;
 }
@@ -94,7 +98,7 @@ footer {
 }
 /*Wellcome image */
 .welcome-page-01 {
-  background-image: url("/images/Home/william-bout-264826.jpg");
+  background-image: url("/images/Home/william-bout-264826-Recovered.jpg");
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;

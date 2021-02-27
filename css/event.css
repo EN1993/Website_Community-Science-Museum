@@ -20,6 +20,10 @@
   justify-content: center;
   gap: 25px;
 }
+.our---events a,
+.events-3 a {
+  font-size: 14px;
+}
 .our---events {
   width: 300px;
   background: white;
@@ -38,8 +42,11 @@
 .events-3 {
   width: 645px;
   margin: 10px 0px 15px 0px;
-  font-size: 16px;
-  line-height: 1.9;
+  font-size: ;
+  line-height: ;
   background: white;
   padding: 10px;
+}
+.events-3 p {
+  font-size: 20px;
 }

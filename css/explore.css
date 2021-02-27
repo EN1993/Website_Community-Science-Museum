@@ -32,7 +32,7 @@
   width: 300px;
   padding-bottom: 10px;
   color: white;
-  font-size: 18px;
+  font-size: 22px;
   margin: auto 0px;
 }
 .for-teachers {
@@ -42,7 +42,7 @@
 .research-1 {
   width: 450px;
   color: white;
-  font-size: 18px;
+  font-size: 22px;
   margin: 0px 10px;
   padding-bottom: 10px;
   margin: auto 0px;
@@ -52,5 +52,5 @@
   width: 300px;
 }
 .research {
-  background: #faad28;
+  background: #db8e0a;
 }
