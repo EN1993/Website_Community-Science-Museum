@@ -39,6 +39,7 @@
   padding: 10px;
 }
 
+
 input,
 textarea {
   padding: 17px 10px;
@@ -51,3 +52,10 @@ textarea {
 textarea {
   min-height: 205px;
 }
+
+.errorForm{
+  color:  #ffe300;
+  display: none;
+
+}
+

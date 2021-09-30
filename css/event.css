@@ -10,6 +10,10 @@
   text-decoration: underline;
 }
 
+.events p {
+  font-weight: bold;
+}
+
 .events {
   margin: 0px auto;
 }
@@ -42,11 +46,9 @@
 .events-3 {
   width: 645px;
   margin: 10px 0px 15px 0px;
-  font-size: ;
-  line-height: ;
   background: white;
   padding: 10px;
 }
 .events-3 p {
-  font-size: 20px;
+  font-size: 23px;
 }

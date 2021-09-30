@@ -1,4 +1,8 @@
 /*About page*/
+
+main p{
+  font-weight: bold;
+}
 .welcome--page-about h1 {
   padding: 53px 16px;
 }
@@ -98,4 +102,7 @@
 }
 .about-info p {
   text-align: left;
+}
+strong{
+  font-size: 25px;
 }
